@@ -1,0 +1,13 @@
+{
+  "baseUrl": ".",
+  "rootDir": ".",
+  "exclude": ["packages/**/tests/**", "packages/**/dist/**"],
+  "references": [
+    {
+      "path": "./packages/shared"
+    },
+    {
+      "path": "./packages/app-vue3"
+    }
+  ]
+}
