@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "app:dev": "yarn workspace @demo/app-vue3 dev",
-    "app:build": "yarn workspace @demo/app-vue3 build",
+    "app:build": "yarn workspace @demo/shared build && yarn workspace @demo/app-vue3 build",
     "share:build": "yarn workspace @demo/shared build"
   },
   "devDependencies": {
