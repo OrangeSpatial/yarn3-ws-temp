@@ -1,0 +1,19 @@
+{
+  "name": "@demo/shared",
+  "main": "index.js",
+  "module": "dist/shared.es.js",
+  "types": "dist/index.d.ts",
+  "packageManager": "yarn@3.6.1",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "vite": "^4.4.7",
+    "vite-plugin-dts": "^3.3.1"
+  }
+}
